@@ -4,7 +4,7 @@ build: off
 image:
   - Visual Studio 2015
   - Visual Studio 2019
-environment:
+environment:dds
   matrix:
     - TOXENV: check
     - TOXENV: 'py36-pytest46-xdist127-coverage55,py36-pytest46-xdist133-coverage55,py36-pytest54-xdist133-coverage55,py36-pytest62-xdist202-coverage55'
